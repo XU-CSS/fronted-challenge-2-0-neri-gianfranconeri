@@ -3,65 +3,63 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About (Broken)</title>
-
-    <!-- INTENTIONALLY BROKEN: wrong stylesheet path and filename -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <title>About | Neri Gianfranco Neri</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <div class="container">
+      <div class="container header-row">
         <h1 class="site-title">About This Site</h1>
-
         <nav class="site-nav" aria-label="Primary">
-          <!-- INTENTIONALLY BROKEN: filenames/paths are not correct -->
-          <a href="index.html">Home</a>
-          <a href="about.html" aria-current="page">About</a>
-          <a href="pages/contact.html">Contact</a>
+          <a href="./index.html">Home</a>
+          <a href="./about.html" aria-current="page">About</a>
+          <a href="./pages/contact.html">Contact</a>
         </nav>
       </div>
     </header>
 
     <main class="container">
-      <section class="card">
-        <h2>About Me</h2>
-        <p>
-          Hi! I'm Alex, a frontend developer who enjoys turning designs into
-          clean, accessible web pages. I focus on semantic HTML, responsive
-          layouts, and keeping projects organized so they are easy to maintain.
-        </p>
+      <section class="card about-layout">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            Hi, I’m Neri Gianfranco Neri. I’m learning front-end development and
+            enjoy building clean, readable websites that are easy to navigate
+            and maintain.
+          </p>
 
-        <h3>Skills</h3>
-        <ul>
-          <li>Semantic HTML and accessibility basics</li>
-          <li>CSS Flexbox and Grid layouts</li>
-          <li>Organizing folders and fixing relative paths</li>
-          <li>Debugging broken links, images, and styles</li>
-        </ul>
+          <h3>Skills I’m Practicing</h3>
+          <ul>
+            <li>Semantic HTML structure</li>
+            <li>CSS styling and spacing</li>
+            <li>Flexbox layouts</li>
+            <li>Fixing broken links, images, and file paths</li>
+          </ul>
+        </div>
 
-        <!-- INTENTIONALLY BROKEN: wrong image path and filename -->
         <img
           class="profile-image"
-          src="./img/profile.png"
-          alt="A simple profile icon"
+          src="./assets/img/profile.svg"
+          alt="Profile illustration"
           width="160"
           height="160"
         />
       </section>
 
       <section class="card">
-        <h2>Project Note</h2>
+        <h2>Project Goal</h2>
         <p>
-          This portfolio project is intentionally broken for an assessment. Some
-          pages are nested in folders and some files are in the wrong place.
-          Fixing paths may require using <code>../</code>.
+          This site was rebuilt from a broken starter project. I cleaned the
+          file structure, fixed the navigation, corrected stylesheet and image
+          paths, and improved the layout using Flexbox.
         </p>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="container">
-        <small>Web Systems Assessment — Front-End Challenge 2.0</small>
+      <div class="container footer-row">
+        <small>Front-End Challenge 2.0</small>
+        <small>Built by Neri Gianfranco Neri</small>
       </div>
     </footer>
   </body>
